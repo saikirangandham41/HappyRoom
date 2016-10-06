@@ -8,7 +8,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ScatterplotViewController: UIViewController {
+    
+    // We will be using daniel gindi framework for the graphs
 
     override func viewDidLoad() {
         super.viewDidLoad()

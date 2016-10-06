@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */; };
 		7F8D6EB51DA6DC0500896505 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */; };
-		7F8D6EB71DA6DC0500896505 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB61DA6DC0500896505 /* SecondViewController.swift */; };
+		7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */; };
 		7F8D6EBA1DA6DC0500896505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB81DA6DC0500896505 /* Main.storyboard */; };
 		7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */; };
 		7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */; };
+		7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */; };
+		7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */; };
+		7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */; };
+		7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */; };
+		7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F8D6EAF1DA6DC0500896505 /* HappyRoomiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRoomiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7F8D6EB61DA6DC0500896505 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterplotViewController.swift; sourceTree = "<group>"; };
 		7F8D6EB91DA6DC0500896505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8D6EBE1DA6DC0500896505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F8D6EC01DA6DC0500896505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5starsgray.png; sourceTree = "<group>"; };
+		7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User-25.png"; sourceTree = "<group>"; };
+		7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scatter Plot-25.png"; sourceTree = "<group>"; };
+		7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart-25.png"; sourceTree = "<group>"; };
+		7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,14 @@
 			children = (
 				7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */,
 				7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */,
-				7F8D6EB61DA6DC0500896505 /* SecondViewController.swift */,
+				7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */,
+				7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */,
 				7F8D6EB81DA6DC0500896505 /* Main.storyboard */,
 				7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */,
+				7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */,
+				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
+				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
+				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
 				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
 				7F8D6EC01DA6DC0500896505 /* Info.plist */,
 			);
@@ -126,7 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */,
+				7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */,
+				7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */,
 				7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */,
+				7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */,
+				7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */,
 				7F8D6EBA1DA6DC0500896505 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8D6EB71DA6DC0500896505 /* SecondViewController.swift in Sources */,
+				7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */,
 				7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */,
+				7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */,
 				7F8D6EB51DA6DC0500896505 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -292,6 +314,7 @@
 				7F8D6EC51DA6DC0500896505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let configuration = ParseClientConfiguration{
+            $0.applicationId = "8XyKUx0XP6wZIsIwkuSPL8i40w6ziLXowObiWAuc"
+            $0.clientKey = "dWsidcLCTIq2J5VMZfms7VrLznPlyGcAxNyGgBZV"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initializeWithConfiguration(configuration)
+        
+        
+        var pageController = UIPageControl.appearance()
+        pageController.pageIndicatorTintColor = UIColor.lightGrayColor()
+        pageController.currentPageIndicatorTintColor = UIColor.blackColor()
+        pageController.backgroundColor = UIColor.whiteColor()
         return true
     }
 

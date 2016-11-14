@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E259CFD1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */; };
+		7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E259CFE1DA8692F00FEC115 /* Pie Chart.png */; };
+		7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */; };
+		7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */; };
+		7F5274341DB97B580037261C /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5274331DB97B580037261C /* RateView.swift */; };
+		7F6216E51DD533A1002D65B2 /* filledStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6216E41DD533A1002D65B2 /* filledStar1.png */; };
+		7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F6216E61DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld */; };
+		7F80AD041DBD6957002668D5 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F80AD021DBD6957002668D5 /* filledStar.png */; };
+		7F80AD051DBD6957002668D5 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F80AD031DBD6957002668D5 /* emptyStar.png */; };
 		7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */; };
-		7F8D6EB51DA6DC0500896505 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */; };
+		7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB41DA6DC0500896505 /* UserViewController.swift */; };
 		7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */; };
-		7F8D6EBA1DA6DC0500896505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB81DA6DC0500896505 /* Main.storyboard */; };
 		7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */; };
 		7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */; };
 		7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */; };
@@ -18,14 +26,39 @@
 		7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */; };
 		7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */; };
 		7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */; };
+		C054698B1DC012A100A0378A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C054698A1DC012A100A0378A /* Main.storyboard */; };
+		C05469B41DC032BF00A0378A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AA1DC032BF00A0378A /* AudioToolbox.framework */; };
+		C05469B51DC032BF00A0378A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AB1DC032BF00A0378A /* CoreData.framework */; };
+		C05469B61DC032BF00A0378A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AC1DC032BF00A0378A /* CoreGraphics.framework */; };
+		C05469B71DC032BF00A0378A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AD1DC032BF00A0378A /* CoreLocation.framework */; };
+		C05469B81DC032BF00A0378A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AE1DC032BF00A0378A /* libsqlite3.tbd */; };
+		C05469B91DC032BF00A0378A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AF1DC032BF00A0378A /* libz.tbd */; };
+		C05469BA1DC032BF00A0378A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469B01DC032BF00A0378A /* QuartzCore.framework */; };
+		C05469BB1DC032BF00A0378A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469B11DC032BF00A0378A /* Security.framework */; };
+		C05469BC1DC032BF00A0378A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469B21DC032BF00A0378A /* StoreKit.framework */; };
+		C05469BD1DC032BF00A0378A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469B31DC032BF00A0378A /* SystemConfiguration.framework */; };
+		C05469BF1DC0334500A0378A /* Parse-iOS in Resources */ = {isa = PBXBuildFile; fileRef = C05469BE1DC0334500A0378A /* Parse-iOS */; };
+		C05469C11DC034AD00A0378A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469C01DC034AD00A0378A /* Bolts.framework */; };
+		C05469C31DC034B100A0378A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469C21DC034B100A0378A /* Parse.framework */; };
+		C0D856971DC14C8900521795 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D856961DC14C8900521795 /* Rating.swift */; };
+		C0E1E3371DDA7D3D006730D8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */; };
+		C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1E3381DDA7E1D006730D8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-07 at 5.58.25 PM.png"; sourceTree = "<group>"; };
+		7E259CFE1DA8692F00FEC115 /* Pie Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart.png"; sourceTree = "<group>"; };
+		7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-50.png"; sourceTree = "<group>"; };
+		7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-25.png"; sourceTree = "<group>"; };
+		7F5274331DB97B580037261C /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		7F6216E41DD533A1002D65B2 /* filledStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar1.png; sourceTree = "<group>"; };
+		7F6216E71DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyRoomCoreData.xcdatamodel; sourceTree = "<group>"; };
+		7F80AD021DBD6957002668D5 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
+		7F80AD031DBD6957002668D5 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
 		7F8D6EAF1DA6DC0500896505 /* HappyRoomiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRoomiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7F8D6EB41DA6DC0500896505 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterplotViewController.swift; sourceTree = "<group>"; };
-		7F8D6EB91DA6DC0500896505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8D6EBE1DA6DC0500896505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F8D6EC01DA6DC0500896505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +67,23 @@
 		7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scatter Plot-25.png"; sourceTree = "<group>"; };
 		7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart-25.png"; sourceTree = "<group>"; };
 		7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
+		C054698A1DC012A100A0378A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C05469AA1DC032BF00A0378A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C05469AB1DC032BF00A0378A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C05469AC1DC032BF00A0378A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C05469AD1DC032BF00A0378A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C05469AE1DC032BF00A0378A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C05469AF1DC032BF00A0378A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C05469B01DC032BF00A0378A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C05469B11DC032BF00A0378A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C05469B21DC032BF00A0378A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C05469B31DC032BF00A0378A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C05469BE1DC0334500A0378A /* Parse-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Parse-iOS"; path = "HappyRoomiOSProject/Parse-iOS"; sourceTree = "<group>"; };
+		C05469C01DC034AD00A0378A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "HappyRoomiOSProject/Parse-iOS/Bolts.framework"; sourceTree = "<group>"; };
+		C05469C21DC034B100A0378A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "HappyRoomiOSProject/Parse-iOS/Parse.framework"; sourceTree = "<group>"; };
+		C0D856961DC14C8900521795 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		C0E1E3381DDA7E1D006730D8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,15 +91,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05469B41DC032BF00A0378A /* AudioToolbox.framework in Frameworks */,
+				C05469B51DC032BF00A0378A /* CoreData.framework in Frameworks */,
+				C05469B61DC032BF00A0378A /* CoreGraphics.framework in Frameworks */,
+				C05469B71DC032BF00A0378A /* CoreLocation.framework in Frameworks */,
+				C05469B81DC032BF00A0378A /* libsqlite3.tbd in Frameworks */,
+				C05469B91DC032BF00A0378A /* libz.tbd in Frameworks */,
+				C05469BA1DC032BF00A0378A /* QuartzCore.framework in Frameworks */,
+				C05469BB1DC032BF00A0378A /* Security.framework in Frameworks */,
+				C05469C11DC034AD00A0378A /* Bolts.framework in Frameworks */,
+				C05469BC1DC032BF00A0378A /* StoreKit.framework in Frameworks */,
+				C05469C31DC034B100A0378A /* Parse.framework in Frameworks */,
+				C05469BD1DC032BF00A0378A /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F5274321DB97AC80037261C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */,
+				7F80AD021DBD6957002668D5 /* filledStar.png */,
+				7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */,
+				7F80AD031DBD6957002668D5 /* emptyStar.png */,
+				7E259CFE1DA8692F00FEC115 /* Pie Chart.png */,
+				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
+				7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */,
+				7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */,
+				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
+				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
+				7F8D6EC01DA6DC0500896505 /* Info.plist */,
+				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
+				7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7F8D6EA61DA6DC0500896505 = {
 			isa = PBXGroup;
 			children = (
+				C0D856981DC1756100521795 /* Frameworks */,
 				7F8D6EB11DA6DC0500896505 /* HappyRoomiOSProject */,
 				7F8D6EB01DA6DC0500896505 /* Products */,
 			);
@@ -66,20 +149,40 @@
 		7F8D6EB11DA6DC0500896505 /* HappyRoomiOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				7F6216E41DD533A1002D65B2 /* filledStar1.png */,
 				7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */,
-				7F8D6EB41DA6DC0500896505 /* FirstViewController.swift */,
+				C0E1E3381DDA7E1D006730D8 /* ViewController.swift */,
+				7F5274331DB97B580037261C /* RateView.swift */,
+				C0D856961DC14C8900521795 /* Rating.swift */,
 				7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */,
 				7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */,
-				7F8D6EB81DA6DC0500896505 /* Main.storyboard */,
-				7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */,
-				7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */,
-				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
-				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
-				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
-				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
-				7F8D6EC01DA6DC0500896505 /* Info.plist */,
+				7F8D6EB41DA6DC0500896505 /* UserViewController.swift */,
+				C054698A1DC012A100A0378A /* Main.storyboard */,
+				C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */,
+				7F6216E61DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld */,
+				7F5274321DB97AC80037261C /* Supporting Files */,
 			);
 			path = HappyRoomiOSProject;
+			sourceTree = "<group>";
+		};
+		C0D856981DC1756100521795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05469BE1DC0334500A0378A /* Parse-iOS */,
+				C05469AA1DC032BF00A0378A /* AudioToolbox.framework */,
+				C05469AB1DC032BF00A0378A /* CoreData.framework */,
+				C05469AC1DC032BF00A0378A /* CoreGraphics.framework */,
+				C05469AD1DC032BF00A0378A /* CoreLocation.framework */,
+				C05469AE1DC032BF00A0378A /* libsqlite3.tbd */,
+				C05469AF1DC032BF00A0378A /* libz.tbd */,
+				C05469B01DC032BF00A0378A /* QuartzCore.framework */,
+				C05469B11DC032BF00A0378A /* Security.framework */,
+				C05469B21DC032BF00A0378A /* StoreKit.framework */,
+				C05469B31DC032BF00A0378A /* SystemConfiguration.framework */,
+				C05469C21DC034B100A0378A /* Parse.framework */,
+				C05469C01DC034AD00A0378A /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,12 +244,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */,
+				7F6216E51DD533A1002D65B2 /* filledStar1.png in Resources */,
 				7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */,
 				7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */,
+				C05469BF1DC0334500A0378A /* Parse-iOS in Resources */,
+				7F80AD051DBD6957002668D5 /* emptyStar.png in Resources */,
+				7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */,
+				7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */,
+				C054698B1DC012A100A0378A /* Main.storyboard in Resources */,
+				7E259CFD1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png in Resources */,
 				7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */,
+				7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */,
 				7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */,
 				7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */,
-				7F8D6EBA1DA6DC0500896505 /* Main.storyboard in Resources */,
+				7F80AD041DBD6957002668D5 /* filledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,24 +268,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E1E3371DDA7D3D006730D8 /* ContentViewController.swift in Sources */,
+				C0D856971DC14C8900521795 /* Rating.swift in Sources */,
 				7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */,
+				C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */,
+				7F5274341DB97B580037261C /* RateView.swift in Sources */,
+				7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */,
 				7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */,
 				7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */,
-				7F8D6EB51DA6DC0500896505 /* FirstViewController.swift in Sources */,
+				7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F8D6EB81DA6DC0500896505 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F8D6EB91DA6DC0500896505 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,8 +383,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyRoomiOSProject",
+					"$(PROJECT_DIR)/HappyRoomiOSProject/Parse-iOS",
+				);
 				INFOPLIST_FILE = HappyRoomiOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyRoomiOSProject",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,8 +404,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyRoomiOSProject",
+					"$(PROJECT_DIR)/HappyRoomiOSProject/Parse-iOS",
+				);
 				INFOPLIST_FILE = HappyRoomiOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyRoomiOSProject",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,6 +443,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F6216E61DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F6216E71DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodel */,
+			);
+			currentVersion = 7F6216E71DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodel */;
+			path = HappyRoomCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7F8D6EA71DA6DC0500896505 /* Project object */;
 }

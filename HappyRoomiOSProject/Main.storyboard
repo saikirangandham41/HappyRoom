@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VZh-Uv-Om9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VZh-Uv-Om9">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -30,21 +31,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pie Chart.png" translatesAutoresizingMaskIntoConstraints="NO" id="7wr-DT-gTU">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="193" y="127" width="414" height="346"/>
+                                    <rect key="frame" x="241" y="74" width="345" height="166"/>
                                 </variation>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAd-Kq-zoK" customClass="PieChartView" customModule="HappyRoomiOSProject" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="300" y="326" width="240" height="128"/>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Om5-gq-MCM"/>
                                 <exclude reference="7wr-DT-gTU"/>
+                                <exclude reference="zAd-Kq-zoK"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
                             <mask key="subviews">
                                 <include reference="Om5-gq-MCM"/>
                                 <include reference="7wr-DT-gTU"/>
+                                <include reference="zAd-Kq-zoK"/>
                             </mask>
                         </variation>
                     </view>
@@ -63,6 +73,7 @@
                         <viewControllerLayoutGuide type="bottom" id="AhQ-CE-AzY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9kv-ei-aHC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -80,6 +91,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2UT-1O-GFa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QbV-u4-SuX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdg-Vl-wh7">
@@ -108,13 +120,13 @@
                                 <exclude reference="eZt-Gl-SJq"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="fVp-RG-g6d"/>
                                 <exclude reference="06p-QZ-gFq"/>
                                 <exclude reference="NW2-JS-NqA"/>
                                 <exclude reference="RV6-1d-COy"/>
                                 <exclude reference="UX3-xw-1NB"/>
                                 <exclude reference="og8-2d-Evg"/>
                                 <exclude reference="cLs-UZ-BKO"/>
-                                <exclude reference="fVp-RG-g6d"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
@@ -123,13 +135,13 @@
                                 <include reference="eZt-Gl-SJq"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="fVp-RG-g6d"/>
                                 <include reference="06p-QZ-gFq"/>
                                 <include reference="NW2-JS-NqA"/>
                                 <include reference="RV6-1d-COy"/>
                                 <include reference="UX3-xw-1NB"/>
                                 <include reference="og8-2d-Evg"/>
                                 <include reference="cLs-UZ-BKO"/>
-                                <include reference="fVp-RG-g6d"/>
                             </mask>
                         </variation>
                     </view>

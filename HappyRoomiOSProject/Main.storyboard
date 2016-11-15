@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VZh-Uv-Om9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kAR-EO-fbN">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -32,7 +33,7 @@
                                 <variation key="widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="161" y="127" width="414" height="346"/>
                                 </variation>
-                            </imageView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -458,7 +459,7 @@
                     <connections>
                         <segue destination="nVc-dd-aOR" kind="relationship" relationship="viewControllers" id="pRP-cT-hK9"/>
                         <segue destination="KlP-Lx-qut" kind="relationship" relationship="viewControllers" id="w7T-fd-yIj"/>
-                        <segue destination="keV-gI-s0h" kind="relationship" relationship="viewControllers" id="Ul3-oR-zIJ"/>
+                        <segue destination="keV-gI-s0h" kind="relationship" relationship="viewControllers" id="xq4-Xw-sYh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WBd-UW-W1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -469,7 +470,6 @@
     <resources>
         <image name="Christmas Star-25.png" width="25" height="25"/>
         <image name="Pie Chart-25.png" width="25" height="25"/>
-        <image name="Pie Chart.png" width="485" height="403"/>
         <image name="Scatter Plot-25.png" width="25" height="25"/>
         <image name="Screen Shot 2016-10-07 at 5.58.25 PM.png" width="516" height="353"/>
     </resources>

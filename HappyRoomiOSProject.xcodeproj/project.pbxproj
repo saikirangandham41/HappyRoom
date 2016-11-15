@@ -26,6 +26,7 @@
 		7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */; };
 		7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */; };
 		7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */; };
+		7FD10F6B1DDA8B9500DA02E0 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */; };
 		C054698B1DC012A100A0378A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C054698A1DC012A100A0378A /* Main.storyboard */; };
 		C05469B41DC032BF00A0378A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AA1DC032BF00A0378A /* AudioToolbox.framework */; };
 		C05469B51DC032BF00A0378A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AB1DC032BF00A0378A /* CoreData.framework */; };
@@ -67,6 +68,7 @@
 		7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scatter Plot-25.png"; sourceTree = "<group>"; };
 		7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart-25.png"; sourceTree = "<group>"; };
 		7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
+		7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		C054698A1DC012A100A0378A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C05469AA1DC032BF00A0378A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C05469AB1DC032BF00A0378A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -153,6 +155,7 @@
 				7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */,
 				C0E1E3381DDA7E1D006730D8 /* ViewController.swift */,
 				7F5274331DB97B580037261C /* RateView.swift */,
+				7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */,
 				C0D856961DC14C8900521795 /* Rating.swift */,
 				7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */,
 				7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */,
@@ -274,6 +277,7 @@
 				C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */,
 				7F5274341DB97B580037261C /* RateView.swift in Sources */,
 				7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */,
+				7FD10F6B1DDA8B9500DA02E0 /* PieChartView.swift in Sources */,
 				7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */,
 				7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */,
 				7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */,

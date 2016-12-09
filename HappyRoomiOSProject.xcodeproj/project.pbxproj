@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E259CFD1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */; };
+		1CA62FA86CF29C20BCBD7127 /* Pods_HappyRoomiOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF0A8A2363769E87689AA2 /* Pods_HappyRoomiOSProject.framework */; };
 		7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E259CFE1DA8692F00FEC115 /* Pie Chart.png */; };
 		7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */; };
 		7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */; };
 		7F5274341DB97B580037261C /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5274331DB97B580037261C /* RateView.swift */; };
-		7F6216E51DD533A1002D65B2 /* filledStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6216E41DD533A1002D65B2 /* filledStar1.png */; };
+		7F5AECDD1DDABCA5005FFB4E /* ScatterPlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AECDC1DDABCA5005FFB4E /* ScatterPlotView.swift */; };
 		7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F6216E61DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld */; };
-		7F80AD041DBD6957002668D5 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F80AD021DBD6957002668D5 /* filledStar.png */; };
-		7F80AD051DBD6957002668D5 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F80AD031DBD6957002668D5 /* emptyStar.png */; };
 		7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */; };
 		7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB41DA6DC0500896505 /* UserViewController.swift */; };
 		7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */; };
@@ -26,7 +24,9 @@
 		7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */; };
 		7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */; };
 		7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */; };
-		7FD10F6B1DDA8B9500DA02E0 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */; };
+		7FD10F6B1DDA8B9500DA02E0 /* PiechartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */; };
+		8416E9201DF5E10A00D94A58 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416E91F1DF5E10A00D94A58 /* Reachability.swift */; };
+		84EC43001DF1D63E00624C55 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC42FF1DF1D63E00624C55 /* Charts.framework */; };
 		C054698B1DC012A100A0378A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C054698A1DC012A100A0378A /* Main.storyboard */; };
 		C05469B41DC032BF00A0378A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AA1DC032BF00A0378A /* AudioToolbox.framework */; };
 		C05469B51DC032BF00A0378A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469AB1DC032BF00A0378A /* CoreData.framework */; };
@@ -41,21 +41,23 @@
 		C05469BF1DC0334500A0378A /* Parse-iOS in Resources */ = {isa = PBXBuildFile; fileRef = C05469BE1DC0334500A0378A /* Parse-iOS */; };
 		C05469C11DC034AD00A0378A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469C01DC034AD00A0378A /* Bolts.framework */; };
 		C05469C31DC034B100A0378A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05469C21DC034B100A0378A /* Parse.framework */; };
+		C05626221DF0E6A8002A012C /* hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C05626211DF0E6A8002A012C /* hotel.jpg */; };
+		C05626251DF0EA19002A012C /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = C05626231DF0EA19002A012C /* emptyStar.png */; };
+		C05626261DF0EA19002A012C /* filledStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = C05626241DF0EA19002A012C /* filledStar1.png */; };
+		C056262C1DF0EBFF002A012C /* emptyStar10.png in Resources */ = {isa = PBXBuildFile; fileRef = C056262B1DF0EBFF002A012C /* emptyStar10.png */; };
 		C0D856971DC14C8900521795 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D856961DC14C8900521795 /* Rating.swift */; };
 		C0E1E3371DDA7D3D006730D8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */; };
 		C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1E3381DDA7E1D006730D8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-07 at 5.58.25 PM.png"; sourceTree = "<group>"; };
 		7E259CFE1DA8692F00FEC115 /* Pie Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart.png"; sourceTree = "<group>"; };
 		7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-50.png"; sourceTree = "<group>"; };
 		7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-25.png"; sourceTree = "<group>"; };
+		7F11FD07ED87B69434476612 /* Pods-HappyRoomiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyRoomiOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyRoomiOSProject/Pods-HappyRoomiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7F5274331DB97B580037261C /* RateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
-		7F6216E41DD533A1002D65B2 /* filledStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar1.png; sourceTree = "<group>"; };
+		7F5AECDC1DDABCA5005FFB4E /* ScatterPlotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterPlotView.swift; sourceTree = "<group>"; };
 		7F6216E71DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyRoomCoreData.xcdatamodel; sourceTree = "<group>"; };
-		7F80AD021DBD6957002668D5 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
-		7F80AD031DBD6957002668D5 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
 		7F8D6EAF1DA6DC0500896505 /* HappyRoomiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyRoomiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8D6EB41DA6DC0500896505 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +70,11 @@
 		7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scatter Plot-25.png"; sourceTree = "<group>"; };
 		7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart-25.png"; sourceTree = "<group>"; };
 		7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
-		7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartView.swift; sourceTree = "<group>"; };
+		8416E91F1DF5E10A00D94A58 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		84EC42FF1DF1D63E00624C55 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/HappyRoomiOSProject-ejmflblcfqgewbbrgfchpbnuinrg/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
+		91EF0A8A2363769E87689AA2 /* Pods_HappyRoomiOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyRoomiOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D47C4F4499D0776308BBD4 /* Pods-HappyRoomiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyRoomiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyRoomiOSProject/Pods-HappyRoomiOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		C054698A1DC012A100A0378A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C05469AA1DC032BF00A0378A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C05469AB1DC032BF00A0378A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -83,6 +89,12 @@
 		C05469BE1DC0334500A0378A /* Parse-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Parse-iOS"; path = "HappyRoomiOSProject/Parse-iOS"; sourceTree = "<group>"; };
 		C05469C01DC034AD00A0378A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "HappyRoomiOSProject/Parse-iOS/Bolts.framework"; sourceTree = "<group>"; };
 		C05469C21DC034B100A0378A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "HappyRoomiOSProject/Parse-iOS/Parse.framework"; sourceTree = "<group>"; };
+		C056261D1DF0BF59002A012C /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Charts.framework; path = "/Users/s525882/Library/Developer/Xcode/DerivedData/HappyRoomiOSProject-dwhwcxpxxvjwjyeflgzyqpaozmct/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<absolute>"; };
+		C05626211DF0E6A8002A012C /* hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hotel.jpg; path = ../hotel.jpg; sourceTree = "<group>"; };
+		C05626231DF0EA19002A012C /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		C05626241DF0EA19002A012C /* filledStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar1.png; sourceTree = "<group>"; };
+		C056262B1DF0EBFF002A012C /* emptyStar10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emptyStar10.png; path = ../emptyStar10.png; sourceTree = "<group>"; };
+		C05E9EE91DEFB5220003DAFE /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Charts.framework; path = "/Users/s525882/Library/Developer/Xcode/DerivedData/HappyRoomiOSProject-ggkevzwszjwopabpqxvjcvsjccaq/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<absolute>"; };
 		C0D856961DC14C8900521795 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		C0E1E3381DDA7E1D006730D8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC43001DF1D63E00624C55 /* Charts.framework in Frameworks */,
 				C05469B41DC032BF00A0378A /* AudioToolbox.framework in Frameworks */,
 				C05469B51DC032BF00A0378A /* CoreData.framework in Frameworks */,
 				C05469B61DC032BF00A0378A /* CoreGraphics.framework in Frameworks */,
@@ -105,28 +118,44 @@
 				C05469BC1DC032BF00A0378A /* StoreKit.framework in Frameworks */,
 				C05469C31DC034B100A0378A /* Parse.framework in Frameworks */,
 				C05469BD1DC032BF00A0378A /* SystemConfiguration.framework in Frameworks */,
+				1CA62FA86CF29C20BCBD7127 /* Pods_HappyRoomiOSProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ADFBE94683A19F87A4EAAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F11FD07ED87B69434476612 /* Pods-HappyRoomiOSProject.debug.xcconfig */,
+				B6D47C4F4499D0776308BBD4 /* Pods-HappyRoomiOSProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7F5274321DB97AC80037261C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */,
+				7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */,
+				7F5274331DB97B580037261C /* RateView.swift */,
+				C0E1E3381DDA7E1D006730D8 /* ViewController.swift */,
+				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
+				C0D856961DC14C8900521795 /* Rating.swift */,
 				7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */,
-				7F80AD021DBD6957002668D5 /* filledStar.png */,
 				7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */,
-				7F80AD031DBD6957002668D5 /* emptyStar.png */,
+				C056262B1DF0EBFF002A012C /* emptyStar10.png */,
+				C05626211DF0E6A8002A012C /* hotel.jpg */,
+				C05626231DF0EA19002A012C /* emptyStar.png */,
+				C05626241DF0EA19002A012C /* filledStar1.png */,
 				7E259CFE1DA8692F00FEC115 /* Pie Chart.png */,
 				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
 				7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */,
 				7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */,
 				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
-				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
 				7F8D6EC01DA6DC0500896505 /* Info.plist */,
 				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
-				7E259CFC1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -134,9 +163,12 @@
 		7F8D6EA61DA6DC0500896505 = {
 			isa = PBXGroup;
 			children = (
+				C056261D1DF0BF59002A012C /* Charts.framework */,
+				C05E9EE91DEFB5220003DAFE /* Charts.framework */,
 				C0D856981DC1756100521795 /* Frameworks */,
 				7F8D6EB11DA6DC0500896505 /* HappyRoomiOSProject */,
 				7F8D6EB01DA6DC0500896505 /* Products */,
+				4ADFBE94683A19F87A4EAAF7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,17 +183,13 @@
 		7F8D6EB11DA6DC0500896505 /* HappyRoomiOSProject */ = {
 			isa = PBXGroup;
 			children = (
-				7F6216E41DD533A1002D65B2 /* filledStar1.png */,
 				7F8D6EB21DA6DC0500896505 /* AppDelegate.swift */,
-				C0E1E3381DDA7E1D006730D8 /* ViewController.swift */,
-				7F5274331DB97B580037261C /* RateView.swift */,
-				7FD10F6A1DDA8B9500DA02E0 /* PieChartView.swift */,
-				C0D856961DC14C8900521795 /* Rating.swift */,
-				7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */,
-				7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */,
+				8416E91F1DF5E10A00D94A58 /* Reachability.swift */,
 				7F8D6EB41DA6DC0500896505 /* UserViewController.swift */,
+				7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */,
+				7F5AECDC1DDABCA5005FFB4E /* ScatterPlotView.swift */,
+				7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */,
 				C054698A1DC012A100A0378A /* Main.storyboard */,
-				C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */,
 				7F6216E61DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld */,
 				7F5274321DB97AC80037261C /* Supporting Files */,
 			);
@@ -171,6 +199,7 @@
 		C0D856981DC1756100521795 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84EC42FF1DF1D63E00624C55 /* Charts.framework */,
 				C05469BE1DC0334500A0378A /* Parse-iOS */,
 				C05469AA1DC032BF00A0378A /* AudioToolbox.framework */,
 				C05469AB1DC032BF00A0378A /* CoreData.framework */,
@@ -184,6 +213,7 @@
 				C05469B31DC032BF00A0378A /* SystemConfiguration.framework */,
 				C05469C21DC034B100A0378A /* Parse.framework */,
 				C05469C01DC034AD00A0378A /* Bolts.framework */,
+				91EF0A8A2363769E87689AA2 /* Pods_HappyRoomiOSProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8D6EC31DA6DC0500896505 /* Build configuration list for PBXNativeTarget "HappyRoomiOSProject" */;
 			buildPhases = (
+				AAA5A97B64AAC0475EFA5B3F /* [CP] Check Pods Manifest.lock */,
 				7F8D6EAB1DA6DC0500896505 /* Sources */,
 				7F8D6EAC1DA6DC0500896505 /* Frameworks */,
 				7F8D6EAD1DA6DC0500896505 /* Resources */,
+				B294278EF22018858739D132 /* [CP] Embed Pods Frameworks */,
+				38B0ABAD8E03BCED8E168D88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +253,7 @@
 				TargetAttributes = {
 					7F8D6EAE1DA6DC0500896505 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 583N2DJ8B2;
 					};
 				};
 			};
@@ -247,24 +281,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */,
-				7F6216E51DD533A1002D65B2 /* filledStar1.png in Resources */,
 				7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */,
+				C05626251DF0EA19002A012C /* emptyStar.png in Resources */,
+				C05626261DF0EA19002A012C /* filledStar1.png in Resources */,
+				C056262C1DF0EBFF002A012C /* emptyStar10.png in Resources */,
 				7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */,
 				C05469BF1DC0334500A0378A /* Parse-iOS in Resources */,
-				7F80AD051DBD6957002668D5 /* emptyStar.png in Resources */,
 				7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */,
 				7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */,
 				C054698B1DC012A100A0378A /* Main.storyboard in Resources */,
-				7E259CFD1DA8603A00FEC115 /* Screen Shot 2016-10-07 at 5.58.25 PM.png in Resources */,
 				7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */,
+				C05626221DF0E6A8002A012C /* hotel.jpg in Resources */,
 				7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */,
 				7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */,
 				7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */,
-				7F80AD041DBD6957002668D5 /* filledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B0ABAD8E03BCED8E168D88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyRoomiOSProject/Pods-HappyRoomiOSProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA5A97B64AAC0475EFA5B3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B294278EF22018858739D132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyRoomiOSProject/Pods-HappyRoomiOSProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F8D6EAB1DA6DC0500896505 /* Sources */ = {
@@ -273,11 +355,13 @@
 			files = (
 				C0E1E3371DDA7D3D006730D8 /* ContentViewController.swift in Sources */,
 				C0D856971DC14C8900521795 /* Rating.swift in Sources */,
+				8416E9201DF5E10A00D94A58 /* Reachability.swift in Sources */,
+				7F5AECDD1DDABCA5005FFB4E /* ScatterPlotView.swift in Sources */,
 				7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */,
 				C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */,
 				7F5274341DB97B580037261C /* RateView.swift in Sources */,
 				7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */,
-				7FD10F6B1DDA8B9500DA02E0 /* PieChartView.swift in Sources */,
+				7FD10F6B1DDA8B9500DA02E0 /* PiechartView.swift in Sources */,
 				7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */,
 				7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */,
 				7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */,
@@ -385,14 +469,19 @@
 		};
 		7F8D6EC41DA6DC0500896505 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F11FD07ED87B69434476612 /* Pods-HappyRoomiOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HappyRoomiOSProject",
 					"$(PROJECT_DIR)/HappyRoomiOSProject/Parse-iOS",
 				);
 				INFOPLIST_FILE = HappyRoomiOSProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -400,20 +489,26 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7F8D6EC51DA6DC0500896505 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D47C4F4499D0776308BBD4 /* Pods-HappyRoomiOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HappyRoomiOSProject",
 					"$(PROJECT_DIR)/HappyRoomiOSProject/Parse-iOS",
 				);
 				INFOPLIST_FILE = HappyRoomiOSProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

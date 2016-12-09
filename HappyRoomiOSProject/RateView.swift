@@ -28,7 +28,7 @@ class RateView: UIView {
         super.init(coder: aDecoder)!
         
         let filledStarImage = UIImage(named: "filledStar1")
-        let emptyStarImage = UIImage(named: "emptyStar")
+        let emptyStarImage = UIImage(named: "emptyStar10")
         
         for _ in 0..<5 {
             let button = UIButton()
@@ -36,21 +36,12 @@ class RateView: UIView {
             button.setImage(emptyStarImage, forState: .Normal)
             button.setImage(filledStarImage, forState: .Selected)
             button.setImage(filledStarImage, forState: [.Highlighted, .Selected])
-            
             button.adjustsImageWhenHighlighted = false
-            
             button.addTarget(self, action: #selector(RateView.ratingButtonTapped(_:)), forControlEvents: .TouchDown)
             ratingButtons += [button]
             addSubview(button)
         }
-        let label: UILabel = UILabel()
-        label.enabled = true
-        label.backgroundColor = UIColor.blueColor()
-        label.text = "Bad"
-        addSubview(label)
-        label.adjustsFontSizeToFitWidth = true
-        
-    
+
     }
     
    
@@ -93,5 +84,7 @@ class RateView: UIView {
         }
         return count
     }
+    
+    
    }
 

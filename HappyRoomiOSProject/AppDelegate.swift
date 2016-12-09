@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
+        UIApplication.sharedApplication().sendAction(#selector(UIResponder.resignFirstResponder), to:nil, from:nil, forEvent:nil)
+
         let configuration = ParseClientConfiguration{
             $0.applicationId = "8XyKUx0XP6wZIsIwkuSPL8i40w6ziLXowObiWAuc"
             $0.clientKey = "dWsidcLCTIq2J5VMZfms7VrLznPlyGcAxNyGgBZV"

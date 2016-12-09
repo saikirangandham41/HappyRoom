@@ -13,11 +13,17 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     var pageViewController: UIPageViewController!
     var pageTitles: NSArray!
     var pageImages: NSArray!
+    var introductionText:NSArray!
+    
+    var introductionForRating:String = " Give rating to a hotel room"
+    var introductionForPie:String = "View the rating statistics in a pie chart"
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.pageTitles = NSArray(objects:"Introduction", "Introduction" )
-        self.pageImages = NSArray(objects: "login.png", "emptyStar.png")
+        self.pageImages = NSArray(objects: "User", "Pie")
+        
+        self.introductionText = NSArray(objects: "\(introductionForRating)","\(introductionForPie)")
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
         self.pageViewController.dataSource = self
@@ -48,6 +54,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         let vc: ContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
         vc.imageFile = self.pageImages[index] as! String
         vc.titleText = self.pageTitles[index] as! String
+        vc.introductionText = self.introductionText[index] as! String
         vc.pageIndex = index
         
         

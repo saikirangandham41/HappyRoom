@@ -43,14 +43,14 @@ class ScatterPlotView: UIView {
             symbolX.stroke()
         }
         // function to draw circle which represents average rating between 2 and 3
-        func drawCircle(pointX:Double, pointY:Double){
+        func drawCircle(pointX:Double, _ pointY:Double){
             let randomColor = colorSpectrum[Int(arc4random_uniform(7))]
             let circle = UIBezierPath(ovalInRect: CGRect(x: 0.0 + pointX, y: 4*height/6 - 8 + pointY,width: 8,height: 8))
             randomColor.setFill()
             circle.fill()
         }
         // function to draw triangle which represents average rating between 3 and 4
-        func drawTriangle(pointX:Double, pointY:Double){
+        func drawTriangle(pointX:Double, _ pointY:Double){
             let triangle:UIBezierPath = UIBezierPath()
             let randomColor = colorSpectrum[Int(arc4random_uniform(7))]
             triangle.moveToPoint(CGPoint(x:0.0 + pointX, y:3*height/6 - 8 + pointY))
@@ -61,7 +61,7 @@ class ScatterPlotView: UIView {
             triangle.fill()
         }
         // function to draw spark which represents average rating 4 and 5
-        func drawSpark(pointX:Double, pointY:Double){
+        func drawSpark(pointX:Double, _ pointY:Double){
             let spark:UIBezierPath = UIBezierPath()
             let randomColor = colorSpectrum[Int(arc4random_uniform(7))]
             spark.moveToPoint(CGPoint(x:0.0 + pointX , y:2*height/6 + pointY))
@@ -73,7 +73,7 @@ class ScatterPlotView: UIView {
             spark.fill()
         }
         // function to draw star which represents rating 5
-        func drawStar(pointX:Double, pointY:Double){
+        func drawStar(pointX:Double, _ pointY:Double){
             let stableTriangle:UIBezierPath = UIBezierPath()
             let randomColor = colorSpectrum[Int(arc4random_uniform(7))]
             stableTriangle.moveToPoint(CGPoint(x:0.0 + pointX, y:height/6 + pointY + 2))
@@ -98,66 +98,66 @@ class ScatterPlotView: UIView {
             let movePointYBy = (rating - Double(Int(rating)))*10
             let pointY = -10*movePointYBy
             switch true{
-            case roomNumber > 100 && roomNumber < 200:
+            case roomNumber > 100 && roomNumber < 200: // if room number is between 100 and 200
                 switch true {
                 case rating < 2.0:
                     drawX(pointX, pointY)
                 case rating >= 2.0 && rating < 3.0:
-                    drawCircle(pointX ,pointY: pointY)
+                    drawCircle(pointX ,pointY)
                 case rating >= 3.0 && rating < 4.0:
-                    drawTriangle(pointX ,pointY: pointY)
+                    drawTriangle(pointX ,pointY)
                 case rating >= 4.0 && rating < 5.0:
-                    drawSpark(pointX ,pointY: pointY)
+                    drawSpark(pointX ,pointY)
                 case rating == 5:
-                    drawStar(pointX ,pointY: pointY )
+                    drawStar(pointX ,pointY )
                 default:
-                    drawCircle(pointX,pointY: pointY)
+                    drawCircle(pointX,pointY)
                 }
-            case roomNumber >= 200 && roomNumber < 300:
+            case roomNumber >= 200 && roomNumber < 300: // if room number is between 200 and 300
                 switch true {
                 case rating < 2.0:
                     drawX(pointX + width/4 , pointY)
                 case rating >= 2.0 && rating < 3.0:
-                    drawCircle(pointX +  width/4,pointY: pointY )
+                    drawCircle(pointX +  width/4,pointY )
                 case rating >= 3.0 && rating < 4.0:
-                    drawTriangle(pointX +  width/4 ,pointY: pointY)
+                    drawTriangle(pointX +  width/4 ,pointY)
                 case rating >= 4.0 && rating < 5.0:
-                    drawSpark(pointX +  width/4 ,pointY: pointY)
+                    drawSpark(pointX +  width/4 ,pointY)
                 case rating == 5:
-                    drawStar(pointX + width/4,pointY: pointY)
+                    drawStar(pointX + width/4,pointY)
                 default:
-                    drawCircle(pointX,pointY: pointY)
+                    drawCircle(pointX,pointY)
                 }
-            case roomNumber >= 300 && roomNumber < 400:
+            case roomNumber >= 300 && roomNumber < 400: // if room number is between 300 and 400
                 switch true {
                 case rating < 2.0:
                     drawX(pointX + width/2, pointY)
                 case rating >= 2.0 && rating < 3.0:
-                    drawCircle(pointX + width/2,pointY: pointY)
+                    drawCircle(pointX + width/2,pointY)
                 case rating >= 3.0 && rating < 4.0:
-                    drawTriangle(pointX + width/2,pointY: pointY)
+                    drawTriangle(pointX + width/2,pointY)
                 case rating >= 4.0 && rating < 5.0:
-                    drawSpark(pointX + width/2,pointY: pointY)
+                    drawSpark(pointX + width/2,pointY)
                 case rating == 5:
-                    drawStar(pointX + width/2,pointY: pointY)
+                    drawStar(pointX + width/2,pointY)
                 default:
-                    drawCircle(pointX,pointY: pointY)
+                    drawCircle(pointX,pointY)
                 }
-            case roomNumber >= 400 && roomNumber < 500:
+            case roomNumber >= 400 && roomNumber < 500: // if room number is between 400 and 500
                 
                 switch true {
                 case rating < 2.0:
                     drawX(pointX + 3*width/4   ,pointY)
                 case rating >= 2.0 && rating < 3.0:
-                    drawCircle(pointX + 3*width/4 ,pointY: pointY)
+                    drawCircle(pointX + 3*width/4 ,pointY)
                 case rating >= 3.0 && rating < 4.0:
-                    drawTriangle(pointX + 3*width/4 ,pointY: pointY)
+                    drawTriangle(pointX + 3*width/4 ,pointY)
                 case rating >= 4.0 && rating < 5.0:
-                    drawSpark(pointX + 3*width/4 ,pointY: pointY)
+                    drawSpark(pointX + 3*width/4 ,pointY)
                 case rating == 5:
-                    drawStar(pointX + 3*width/4 ,pointY: pointY)
+                    drawStar(pointX + 3*width/4 ,pointY)
                 default:
-                    drawCircle(pointX,pointY: pointY)
+                    drawCircle(pointX,pointY)
                 }
             default:
                 false
@@ -167,7 +167,7 @@ class ScatterPlotView: UIView {
         }
     }
     
-    
+    // function which assgins average ratings from ScatterViewController
     func getMeData(roomRatings:[Int:Double]){
         ratingForRoom = roomRatings
         setNeedsDisplay()

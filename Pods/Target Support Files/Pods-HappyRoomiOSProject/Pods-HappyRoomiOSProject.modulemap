@@ -1,0 +1,6 @@
+framework module Pods_HappyRoomiOSProject {
+  umbrella header "Pods-HappyRoomiOSProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

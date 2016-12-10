@@ -34,11 +34,12 @@ class UserViewController: UIViewController, UITextFieldDelegate, UITextViewDeleg
             
             if error == nil {
                 // The find succeeded.
-                for object in objects!{
+                for object in objects!{ // retrieved objects are stored roomNumber and ratings Arrays
                     self.ratedRooms.append(object["roomNumber"] as! Int)
                     self.givenRatings.append(object["ratings"] as! NSArray as! [Int])
                     
                 }
+                // adding values in dictionary
                 for i in 0 ..< self.ratedRooms.count{
                     self.roomsAndRatings[self.ratedRooms[i]] = self.givenRatings[i]
                 }
@@ -58,7 +59,7 @@ class UserViewController: UIViewController, UITextFieldDelegate, UITextViewDeleg
         
         let roomNumber:Int! = Int(roomNumberTF.text!)
         if roomNumber != nil{
-            if roomNumber > 99 && roomNumber < 500{
+            if roomNumber > 100 && roomNumber < 500{
                 givenRating = ratingView.count
                 if givenRating != 0 {
                     let query = Rating.queryWithRoomNumber(roomNumber)

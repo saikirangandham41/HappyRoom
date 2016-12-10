@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1CA62FA86CF29C20BCBD7127 /* Pods_HappyRoomiOSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF0A8A2363769E87689AA2 /* Pods_HappyRoomiOSProject.framework */; };
-		7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E259CFE1DA8692F00FEC115 /* Pie Chart.png */; };
 		7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */; };
 		7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */; };
 		7F5274341DB97B580037261C /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5274331DB97B580037261C /* RateView.swift */; };
@@ -19,12 +18,10 @@
 		7F8D6EB71DA6DC0500896505 /* ScatterplotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6EB61DA6DC0500896505 /* ScatterplotViewController.swift */; };
 		7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */; };
 		7F8D6EBF1DA6DC0500896505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */; };
-		7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */; };
 		7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */; };
 		7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */; };
 		7F8D6ECD1DA6FB5800896505 /* Pie Chart-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */; };
 		7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */; };
-		7FD10F6B1DDA8B9500DA02E0 /* PiechartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */; };
 		8416E9201DF5E10A00D94A58 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416E91F1DF5E10A00D94A58 /* Reachability.swift */; };
 		84EC43001DF1D63E00624C55 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EC42FF1DF1D63E00624C55 /* Charts.framework */; };
 		C054698B1DC012A100A0378A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C054698A1DC012A100A0378A /* Main.storyboard */; };
@@ -51,7 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E259CFE1DA8692F00FEC115 /* Pie Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart.png"; sourceTree = "<group>"; };
 		7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-50.png"; sourceTree = "<group>"; };
 		7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-25.png"; sourceTree = "<group>"; };
 		7F11FD07ED87B69434476612 /* Pods-HappyRoomiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyRoomiOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyRoomiOSProject/Pods-HappyRoomiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,12 +61,10 @@
 		7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F8D6EBE1DA6DC0500896505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F8D6EC01DA6DC0500896505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5starsgray.png; sourceTree = "<group>"; };
 		7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gender Neutral User-25.png"; sourceTree = "<group>"; };
 		7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scatter Plot-25.png"; sourceTree = "<group>"; };
 		7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pie Chart-25.png"; sourceTree = "<group>"; };
 		7F8D6ECE1DA7011F00896505 /* PiechartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartViewController.swift; sourceTree = "<group>"; };
-		7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiechartView.swift; sourceTree = "<group>"; };
 		8416E91F1DF5E10A00D94A58 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		84EC42FF1DF1D63E00624C55 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/HappyRoomiOSProject-ejmflblcfqgewbbrgfchpbnuinrg/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
 		91EF0A8A2363769E87689AA2 /* Pods_HappyRoomiOSProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyRoomiOSProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,24 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				C0E1E3361DDA7D3D006730D8 /* ContentViewController.swift */,
-				7FD10F6A1DDA8B9500DA02E0 /* PiechartView.swift */,
 				7F5274331DB97B580037261C /* RateView.swift */,
 				C0E1E3381DDA7E1D006730D8 /* ViewController.swift */,
 				7F8D6EBD1DA6DC0500896505 /* LaunchScreen.storyboard */,
 				C0D856961DC14C8900521795 /* Rating.swift */,
 				7F8D6EBB1DA6DC0500896505 /* Assets.xcassets */,
-				7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */,
-				C056262B1DF0EBFF002A012C /* emptyStar10.png */,
-				C05626211DF0E6A8002A012C /* hotel.jpg */,
-				C05626231DF0EA19002A012C /* emptyStar.png */,
-				C05626241DF0EA19002A012C /* filledStar1.png */,
-				7E259CFE1DA8692F00FEC115 /* Pie Chart.png */,
-				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
-				7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */,
-				7F8D6EC61DA6F7DF00896505 /* 5starsgray.png */,
-				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
+				7FEDE2611DFB79F60056D72A /* Images */,
 				7F8D6EC01DA6DC0500896505 /* Info.plist */,
-				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +177,22 @@
 				7F5274321DB97AC80037261C /* Supporting Files */,
 			);
 			path = HappyRoomiOSProject;
+			sourceTree = "<group>";
+		};
+		7FEDE2611DFB79F60056D72A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7E69A58D1DC17B3900CC65DB /* Christmas Star-50.png */,
+				C056262B1DF0EBFF002A012C /* emptyStar10.png */,
+				C05626211DF0E6A8002A012C /* hotel.jpg */,
+				C05626231DF0EA19002A012C /* emptyStar.png */,
+				C05626241DF0EA19002A012C /* filledStar1.png */,
+				7F8D6EC81DA6F9C100896505 /* Gender Neutral User-25.png */,
+				7E69A58F1DC17CE500CC65DB /* Christmas Star-25.png */,
+				7F8D6ECA1DA6FADA00896505 /* Scatter Plot-25.png */,
+				7F8D6ECC1DA6FB5800896505 /* Pie Chart-25.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		C0D856981DC1756100521795 /* Frameworks */ = {
@@ -287,13 +286,11 @@
 				C056262C1DF0EBFF002A012C /* emptyStar10.png in Resources */,
 				7F8D6ECB1DA6FADA00896505 /* Scatter Plot-25.png in Resources */,
 				C05469BF1DC0334500A0378A /* Parse-iOS in Resources */,
-				7E259CFF1DA8692F00FEC115 /* Pie Chart.png in Resources */,
 				7E69A58E1DC17B3900CC65DB /* Christmas Star-50.png in Resources */,
 				C054698B1DC012A100A0378A /* Main.storyboard in Resources */,
 				7F8D6EBC1DA6DC0500896505 /* Assets.xcassets in Resources */,
 				C05626221DF0E6A8002A012C /* hotel.jpg in Resources */,
 				7E69A5901DC17CE500CC65DB /* Christmas Star-25.png in Resources */,
-				7F8D6EC71DA6F7DF00896505 /* 5starsgray.png in Resources */,
 				7F8D6EC91DA6F9C100896505 /* Gender Neutral User-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +358,6 @@
 				C0E1E3391DDA7E1D006730D8 /* ViewController.swift in Sources */,
 				7F5274341DB97B580037261C /* RateView.swift in Sources */,
 				7F6216E81DD535ED002D65B2 /* HappyRoomCoreData.xcdatamodeld in Sources */,
-				7FD10F6B1DDA8B9500DA02E0 /* PiechartView.swift in Sources */,
 				7F8D6EB31DA6DC0500896505 /* AppDelegate.swift in Sources */,
 				7F8D6ECF1DA7011F00896505 /* PiechartViewController.swift in Sources */,
 				7F8D6EB51DA6DC0500896505 /* UserViewController.swift in Sources */,
@@ -490,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -517,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.edu.HappyRoomiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

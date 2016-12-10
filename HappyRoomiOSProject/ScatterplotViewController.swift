@@ -14,7 +14,6 @@ import Bolts
 
 class ScatterplotViewController: UIViewController {
     
-    // We will be using daniel gindi framework for the graphs
     
     @IBOutlet weak var scatterPlotView: ScatterPlotView!
     var ratingsForRoom:[Int:[Double]]! = [:]
@@ -56,12 +55,14 @@ class ScatterplotViewController: UIViewController {
             if error == nil {
                 // The find succeeded.
                 for object in objects!{
+                    //adding extracted objects into ratingsForRoom Dictionary
                     self.ratingsForRoom[object["roomNumber"] as! Int] = object["ratings"] as! NSArray as? [Double]
                 }
+                //calculating averageRating and storing in averageRatingForRoom array
                 for room in self.ratingsForRoom.keys{
                     self.averageRatingForRoom[room] = self.getAverageRating(self.ratingsForRoom[room]!)
                 }
-
+                // passing averageRatingForRoom to ScatterPlotView
                 self.scatterPlotView.getMeData(self.averageRatingForRoom)
             }
             else {
@@ -69,7 +70,7 @@ class ScatterplotViewController: UIViewController {
                 self.displayAlertWithTitle("Oops", message: "\(error!) \(error!.userInfo)")
             }
         }
-  
+        
     }
     // function for handling pinch gesture
     @IBAction func handlePinch(recognizer : UIPinchGestureRecognizer) {
@@ -95,7 +96,7 @@ class ScatterplotViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         
     }
-    
+    // display message
     func displayMessage(message:String) {
         let alert = UIAlertController(title: "", message: message,
                                       preferredStyle: .Alert)

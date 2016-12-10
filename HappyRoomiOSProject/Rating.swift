@@ -10,7 +10,7 @@ import Foundation
 import Parse
 import Bolts
 class Rating:PFObject {
-
+    
     @NSManaged var roomNumber:Int
     @NSManaged var ratings:[Int]!
     
@@ -25,27 +25,18 @@ class Rating:PFObject {
     }
     
     override class func query() -> PFQuery? {
-        
         let query = PFQuery(className: Rating.parseClassName())
-        
         query.includeKey("user")
-        
         return query
     }
-    
     class func queryWithRoomNumber(roomNumber:Int) -> PFQuery? {
-//        let predicate = NSPredicate(format: "roomNumber = %@", String(roomNumber))
-        
+        //        let predicate = NSPredicate(format: "roomNumber = %@", String(roomNumber))
         let query = PFQuery(className: Rating.parseClassName())
-        
         query.whereKey("roomNumber", equalTo: roomNumber)
-        
-//        query.includeKey("user")
-        
+        //        query.includeKey("user")
         return query
     }
 }
-
 extension Rating : PFSubclassing {
     
     class func parseClassName() -> String {

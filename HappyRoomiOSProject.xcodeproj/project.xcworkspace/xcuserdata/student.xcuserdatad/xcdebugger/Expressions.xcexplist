@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "UserViewController.(submitBTN(AnyObject) -&gt; ()).(closure #1):UserViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ratings?.count">
+            </PersistentString>
+            <PersistentString
+               value = "(rating as! Rating).ratings[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

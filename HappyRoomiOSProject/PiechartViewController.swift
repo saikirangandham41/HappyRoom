@@ -28,7 +28,7 @@ class PiechartViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
+    // function for calculating average rating
     func getAverageRating(ratings:[Double])-> Double {
         var sum:Double = 0.0
         var averageRating:Double = 0.0
@@ -59,13 +59,15 @@ class PiechartViewController: UIViewController {
             if error == nil {
                 // The find succeeded.
                 for object in objects!{
+                    //Extracted data is stored into roomNumber and ratings arrays
                     self.ratedRooms.append(object["roomNumber"] as! Int)
                     self.givenRatings.append(object["ratings"] as! NSArray as! [Double])
                 }
+                //Adding roomNumber and ratings values into roomsAndRatings
                 for i in 0 ..< self.ratedRooms.count{
                     self.roomsAndRatings[self.ratedRooms[i]] = self.givenRatings[i]
                 }
-                
+                // Adding average rating to averageRatingForRoom array
                 for value in self.roomsAndRatings.values{
                     self.averageRatingForRoom.append(self.getAverageRating(value))
                 }
@@ -138,7 +140,7 @@ class PiechartViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         
     }
-    
+    // function for displayMessage
     func displayMessage(message:String) {
         let alert = UIAlertController(title: "", message: message,
                                       preferredStyle: .Alert)

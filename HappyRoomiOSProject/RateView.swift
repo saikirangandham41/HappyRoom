@@ -7,6 +7,7 @@
 //
 import UIKit
 
+// class for rating 5 stars
 class RateView: UIView {
     var user:UserViewController = UserViewController()
     var count:Int! = 0
@@ -41,10 +42,10 @@ class RateView: UIView {
             ratingButtons += [button]
             addSubview(button)
         }
-
+        
     }
     
-   
+    
     override func layoutSubviews() {
         // Set the button's width and height to a square the size of the frame's height.
         let buttonSize = Int(frame.size.height)
@@ -67,24 +68,25 @@ class RateView: UIView {
     
     // MARK: Button Action
     
+    // function triggers when we tap on the stars
     func ratingButtonTapped(button: UIButton)-> Bool{
         
         rating = ratingButtons.indexOf(button)! + 1
         updateButtonSelectionStates()
         tapped = true
-       
+        
         return true
     }
-    
-     func updateButtonSelectionStates()->Int {
+    // function to update stars
+    func updateButtonSelectionStates()->Int {
         for (index, button) in ratingButtons.enumerate() {
             // If the index of a button is less than the rating, that button should be selected.
             button.selected = index < rating
-            count = rating            
+            count = rating
         }
         return count
     }
     
     
-   }
+}
 

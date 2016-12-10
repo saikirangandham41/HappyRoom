@@ -16,7 +16,7 @@ class ContentViewController: UIViewController {
     
     @IBOutlet weak var introductionTeV: UITextView!
     
-    let userInstance = UserViewController()
+    let userViewControllerInstance = UserViewController()
     var pageIndex: Int!
     var titleText:String!
     var imageFile: String!
@@ -25,7 +25,7 @@ class ContentViewController: UIViewController {
         super.viewDidLoad()
         
         if Reachability.isConnectedToNetwork() == true {
-            userInstance.fetch()
+            userViewControllerInstance.fetch()
         } else {
             displayMessage("Please check your internet connection")
         }
@@ -49,6 +49,6 @@ class ContentViewController: UIViewController {
         alert.addAction(defaultAction)
         self.presentViewController(alert,animated:true, completion:nil)
     }
-
+    
     
 }

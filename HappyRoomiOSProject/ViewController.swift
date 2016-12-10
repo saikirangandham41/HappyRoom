@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UIPageViewControllerDataSource {
-
+    
     var pageViewController: UIPageViewController!
     var pageTitles: NSArray!
     var pageImages: NSArray!
@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     var introductionForPie:String = "View the rating statistics in a pie chart"
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.pageTitles = NSArray(objects:"Introduction", "Introduction" )
         self.pageImages = NSArray(objects: "User", "Pie")
         
@@ -38,15 +38,14 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func restartAction(sender: AnyObject) {
-    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    // function for displaying images in the content view controller
     func viewControllerAtIndex(index:Int) -> ContentViewController{
         if self.pageTitles.count == 0 || index >= self.pageTitles.count{
             return ContentViewController()
@@ -56,11 +55,9 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         vc.titleText = self.pageTitles[index] as! String
         vc.introductionText = self.introductionText[index] as! String
         vc.pageIndex = index
-        
-        
         return vc
     }
-    
+    // function for updating index value
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
         let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
@@ -68,10 +65,9 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
             return nil
         }
         index -= 1
-        
         return self.viewControllerAtIndex(index)
-        
     }
+    // function for updating index value
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
         let vc  = viewController as! ContentViewController
@@ -79,15 +75,12 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         if index ==  NSNotFound {
             return nil
         }
-        
         index += 1
         
         if index == self.pageTitles.count{
             return nil
         }
-        
         return self.viewControllerAtIndex(index)
-        
     }
     func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
         return self.pageTitles.count
